@@ -35,7 +35,7 @@ type StoreItemProps = {
         <div className="mt-auto">
           {quantity === 0 ? (
             <Button className="w-100" onClick={() => increaseCartQuantity(id)}>
-              + Add To Cart
+               Добавить в корзину
             </Button>
           ) : (
             <div
@@ -48,7 +48,7 @@ type StoreItemProps = {
               >
                 <Button onClick={() => decreaseCartQuantity(id)}>-</Button>
                 <div>
-                  <span className="fs-3">{quantity}</span> in cart
+                  <span className="fs-3">{quantity}</span> в Корзине
                 </div>
                 <Button onClick={() => increaseCartQuantity(id)}>+</Button>
               </div>
@@ -57,7 +57,7 @@ type StoreItemProps = {
                 variant="danger"
                 size="sm"
               >
-                Remove
+                Удалить 
               </Button>
             </div>
           )}

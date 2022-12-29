@@ -1,26 +1,56 @@
 [
   {
     "id": 1,
-    "name": "Book",
+    "name": "Книга",
     "price": 10.99,
     "imgUrl": "/imgs/book.jpg"
   },
   {
     "id": 2,
-    "name": "Computer",
+    "name": "Ноутбук",
     "price": 1199,
     "imgUrl": "/imgs/computer.jpg"
   },
   {
     "id": 3,
-    "name": "Banana",
+    "name": "Бананы",
     "price": 1.05,
     "imgUrl": "/imgs/banana.jpg"
   },
   {
     "id": 4,
-    "name": "Car",
+    "name": "Авто",
     "price": 14000,
     "imgUrl": "/imgs/car.jpg"
-  }
+  },
+  {
+    "id": 5,
+    "name": "Электронная книга",
+    "price": 49.99,
+    "imgUrl": "/imgs/e-book.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Iphone",
+    "price": 899,
+    "imgUrl": "/imgs/Iphone.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Яблоки",
+    "price": 0.83,
+    "imgUrl": "/imgs/apple.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Мотоцикл",
+    "price": 4000,
+    "imgUrl": "/imgs/moto.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Худи Nike",
+    "price": 79,
+    "imgUrl": "/imgs/nike.jpg"
+  } 
 ]

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
+import Footer from '../components/Footer'
+
 import StoreItem from '../components/StoreItem'
 import storeItems from "../data/items.json"
 
@@ -14,6 +16,7 @@ const Store = () => {
           </Col>
         ))}
       </Row>
+      <Footer/>
     </>
   )
 }

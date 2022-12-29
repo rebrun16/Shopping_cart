@@ -1,8 +1,13 @@
 import React from 'react'
+import Address from '../components/Address'
+import Footer from '../components/Footer'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <Address/>
+      <Footer/>
+    </div>
   )
 }
 
