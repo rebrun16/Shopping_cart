@@ -1,31 +1,33 @@
 .footer{
     width: 100%;
-    /* width: 1024px; */
     border-radius: 10px;
     font-size: 16px;
     margin-top: 25px;
-    background-color:#003580;
+    background-color:transparent;
+    
 }
 .fLists{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    color: black;
 }
 .fList {
   list-style: none;
-  padding: 40px;
+  padding-top: 40px;
+  color: black;
 }
 .fListItem {
   margin-bottom: 10px;
-  /* color: #003580; */
-  color: white;
+  color: black;
   cursor: pointer;
 }
 .fText{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-  padding-bottom: 15px;
+  color: black;
+}
+hr{
+  width: 100%;
 }

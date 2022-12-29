@@ -18,7 +18,6 @@ type StoreItemProps = {
   } = useShoppingCart()
   const quantity = getItemQuantity(id)
 
-
   return (
     <Card className="h-100">
       <Card.Img

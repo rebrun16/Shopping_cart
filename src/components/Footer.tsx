@@ -5,21 +5,34 @@ const Footer = () => {
     <div className="footer">
         <div className="fLists">
             <ul className="fList">
-                <li className="fListItem">Страны</li>
-                <li className="fListItem">Города</li>
+                <h2>Shopping with JD</h2>
+                <li className="fListItem">Size Guides</li>
+                <li className="fListItem">Exclusions</li>
             </ul>
             <ul className="fList">
-                <li className="fListItem">Служба поддержки</li>
-                <li className="fListItem">Центр помощи партнерам</li>
-                <li className="fListItem">Careers</li>
-                <li className="fListItem">Правила и условия</li>
-                <li className="fListItem">Как мы работаем</li>
+                <h2>Customer Care</h2>
+                <li className="fListItem">Delivery & Returns</li>
+                <li className="fListItem">Help</li>
+                <li className="fListItem">Contact Us</li>
+                <li className="fListItem">Track my Order</li>
                 <li className="fListItem">Корпоративные контакты</li>
             </ul>
             <ul className="fList">
-                <li className="fListItem">Отзывы</li>
+                <h2>Corporate</h2>
+                <li className="fListItem">Careers</li>
+                <li className="fListItem">Contact Us</li>
+                <li className="fListItem">JD Sports Fashion Plc</li>
+            </ul>
+            <ul className="fList">
+                <h2>Legal</h2>
+                <li className="fListItem">Terms & Conditions</li>
+                <li className="fListItem">Privacy & Cookies</li>
+                <li className="fListItem">Accessibility</li>
+                <li className="fListItem">Site Map</li>
+                <li className="fListItem">Modaren Slavery Report</li>
             </ul>
         </div>
+        <hr/>
         <div className="fText">Copyright © 1996–2022™. Все права защищены.</div>
     </div>
   )
