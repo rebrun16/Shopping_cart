@@ -7,7 +7,7 @@ import storeItems from "../data/items.json"
 const Store = () => {
   return (
     <>
-      <h1>Store</h1>
+      <h1>Other Products</h1>
       <Row md={2} xs={1} lg={3} className="g-3">
         {storeItems.map(item => (
           <Col key={item.id}>

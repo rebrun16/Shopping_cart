@@ -31,3 +31,13 @@
 hr{
   width: 100%;
 }
+.payments{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.payment{
+  height: 60px;
+  padding: 5px;
+  margin-bottom: 15px;
+}

@@ -1,56 +1,110 @@
 [
   {
     "id": 1,
-    "name": "Книга",
-    "price": 10.99,
-    "imgUrl": "/imgs/book.jpg"
+    "name": "Nike Air Huarache",
+    "price": 75,
+    "imgUrl": "/imgs/shoes.jpg"
   },
   {
     "id": 2,
-    "name": "Ноутбук",
-    "price": 1199,
-    "imgUrl": "/imgs/computer.jpg"
+    "name": "The North Face Bondi Large Logo Hoodie",
+    "price": 60,
+    "imgUrl": "/imgs/tnf.jpg"
   },
   {
     "id": 3,
-    "name": "Бананы",
-    "price": 1.05,
-    "imgUrl": "/imgs/banana.jpg"
+    "name": "Nike Hybrid Jacket",
+    "price": 95,
+    "imgUrl": "/imgs/jackets.jpg"
   },
   {
     "id": 4,
-    "name": "Авто",
-    "price": 14000,
-    "imgUrl": "/imgs/car.jpg"
+    "name": "Hoodrich Pacific Hoodie",
+    "price": 50,
+    "imgUrl": "/imgs/hoodie.jpg"
   },
   {
     "id": 5,
-    "name": "Электронная книга",
+    "name": "Women legging",
+    "price": 49.99,
+    "imgUrl": "/imgs/leggins.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Women Hoodie",
+    "price": 899,
+    "imgUrl": "/imgs/shirt.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Jackets Nike",
+    "price": 79,
+    "imgUrl": "/imgs/jackets1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Reebok shoes",
+    "price": 4000,
+    "imgUrl": "/imgs/shoes1.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Trousers Nike",
+    "price": 79,
+    "imgUrl": "/imgs/trousers.jpg"
+  },
+  {
+    "id": 10,
+    "name": "E-Book",
     "price": 49.99,
     "imgUrl": "/imgs/e-book.jpg"
   },
   {
-    "id": 6,
+    "id": 11,
     "name": "Iphone",
     "price": 899,
     "imgUrl": "/imgs/Iphone.jpg"
   },
   {
-    "id": 7,
-    "name": "Яблоки",
+    "id": 12,
+    "name": "Apple",
     "price": 0.83,
     "imgUrl": "/imgs/apple.jpg"
   },
   {
-    "id": 8,
-    "name": "Мотоцикл",
+    "id": 13,
+    "name": "Motocykle",
     "price": 4000,
     "imgUrl": "/imgs/moto.jpg"
   },
   {
-    "id": 9,
-    "name": "Худи Nike",
+    "id": 14,
+    "name": "Hoodie Nike",
     "price": 79,
     "imgUrl": "/imgs/nike.jpg"
-  } 
+  },
+  {
+    "id": 15,
+    "name": "Book",
+    "price": 10.99,
+    "imgUrl": "/imgs/book.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Laptop",
+    "price": 1199,
+    "imgUrl": "/imgs/computer.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Banana",
+    "price": 1.05,
+    "imgUrl": "/imgs/banana.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Car",
+    "price": 14000,
+    "imgUrl": "/imgs/car.jpg"
+  }
 ]

@@ -19,11 +19,11 @@ type StoreItemProps = {
   const quantity = getItemQuantity(id)
 
   return (
-    <Card className="h-100">
+    <Card className="h-100 w-100">
       <Card.Img
         variant="top"
         src={imgUrl}
-        height="200px"
+        height="300px"
         style={{ objectFit: "cover" }}
       />
       <Card.Body className="d-flex flex-column">
@@ -34,7 +34,7 @@ type StoreItemProps = {
         <div className="mt-auto">
           {quantity === 0 ? (
             <Button className="w-100" onClick={() => increaseCartQuantity(id)}>
-               Добавить в корзину
+               Add to bag
             </Button>
           ) : (
             <div
@@ -47,7 +47,7 @@ type StoreItemProps = {
               >
                 <Button onClick={() => decreaseCartQuantity(id)}>-</Button>
                 <div>
-                  <span className="fs-3">{quantity}</span> в Корзине
+                  <span className="fs-3">{quantity}</span> in Cart
                 </div>
                 <Button onClick={() => increaseCartQuantity(id)}>+</Button>
               </div>
@@ -56,7 +56,7 @@ type StoreItemProps = {
                 variant="danger"
                 size="sm"
               >
-                Удалить 
+                Remove 
               </Button>
             </div>
           )}

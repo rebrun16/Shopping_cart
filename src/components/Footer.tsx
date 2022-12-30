@@ -3,6 +3,7 @@ import "../styles/footer.css"
 const Footer = () => {
   return (
     <div className="footer">
+        <hr/>
         <div className="fLists">
             <ul className="fList">
                 <h2>Shopping with JD</h2>
@@ -33,7 +34,10 @@ const Footer = () => {
             </ul>
         </div>
         <hr/>
-        <div className="fText">Copyright © 1996–2022™. Все права защищены.</div>
+        <div className="payments">
+            <div>Copyright © 1996–2022™. Все права защищены.</div>
+            <img  src="/public/imgs/payment.png" alt="payment"/>
+        </div>
     </div>
   )
 }

@@ -20,7 +20,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
   return (
     <Offcanvas show={isOpen} onHide={closeCart} placement="end">
       <Offcanvas.Header closeButton>
-        <Offcanvas.Title>Корзина</Offcanvas.Title>
+        <Offcanvas.Title>Cart</Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
         <Stack gap={3}>
@@ -28,7 +28,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
           <CartItem key={item.id} {...item}/>
           ))}
           <div className="ms-auto fw-bold fs-5">
-            Всего: {" "}
+            Total: {" "}
               {formatCurrency(
                 cartItems.reduce((total, cartItem) => {
                   const item = storeItems.find(i => i.id === cartItem.id)
@@ -39,13 +39,13 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
           <Button color="primary" className="px-4"
             onClick={handleClick}
           >
-            Продолжить покупки
+            Сontinue shopping
           </Button>
           <Button
             variant="danger"
             size="sm"
           >
-            Оформить заказ
+            Checkout
           </Button>
         </Stack>
       </Offcanvas.Body>
