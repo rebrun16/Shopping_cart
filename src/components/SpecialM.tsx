@@ -1,6 +1,6 @@
 import React from 'react'
-
-const Special = () => {
+import "../styles/special.css"
+const SpecialM = () => {
   return (
     <>
       <div className="special">
@@ -41,4 +41,4 @@ const Special = () => {
   )
 }
 
-export default Special
+export default SpecialM

@@ -109,6 +109,7 @@
   align-items: center;
   justify-content: space-around;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 .shop{
   height: 400px;
@@ -192,6 +193,11 @@
 .button2{
   margin-right: 30px;
   color: rgba(0, 0, 0, 0.6)
+}
+.button2:hover{
+  color: rgba(0,0,0,0.3);
+  border: rgba(0,0,0,0.3);
+  color: #000;
 }
 
 .conversation{

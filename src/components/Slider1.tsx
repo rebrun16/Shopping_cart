@@ -3,35 +3,31 @@ import EastOutlinedIcon from "@mui/icons-material/EastOutlined";
 import WestOutlinedIcon from "@mui/icons-material/WestOutlined";
 import "../styles/slider.scss";
 
-const Slider = () => {
+const Slider1 = () => {
 
   const [currentSlide, setCuurentSlide] = useState(0);
 
+  
   const data = [
-    "/public/imgs/bg1.jpg",
-    "/public/imgs/bg2.jpg",
-    "/public/imgs/bg3.jpg",
-    "/public/imgs/bg4.jpg",
-    "/public/imgs/bg5(1).jpg",
-    "/public/imgs/bg6.jpg",
+    "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1600"
   ];
 
   const prevSlide = () => {
-    setCuurentSlide(currentSlide === 0 ? 4 : (prev) => prev - 1);
+    setCuurentSlide(currentSlide === 0 ? 2 : (prev) => prev - 1);
   } ;
   const nextSlide = () => {
-    setCuurentSlide(currentSlide === 5 ? 0 : (prev) => prev + 1);
+    setCuurentSlide(currentSlide === 2 ? 0 : (prev) => prev + 1);
   };
 
   return (
     <div className='slider'>
-      <div className="container" style={{transform:`translateX(-${currentSlide * 66}vw)`}}>
+      <div className="container" style={{transform:`translateX(-${currentSlide * 67}vw)`}}>
         <img src={data[0]} alt=''/>
         <img src={data[1]} alt=''/>
         <img src={data[2]} alt=''/>
-        <img src={data[3]} alt=''/>
-        <img src={data[4]} alt=''/>
-        <img src={data[5]} alt=''/>
       </div>
       <div className="icons">
         <div className="icon" onClick={prevSlide}>
@@ -45,4 +41,4 @@ const Slider = () => {
   )
 }
 
-export default Slider
+export default Slider1
